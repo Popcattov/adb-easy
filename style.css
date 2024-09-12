@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Uncage';
+    src: url('fonts/font.ttf') format('truetype');
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -16,15 +21,36 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
 }
 
 h1 {
-    font-size: 3em;
+    font-family: 'Uncage', Arial, sans-serif;
+    font-size: 2.5em;
     margin-bottom: 10px;
     color: #2c3e50;
 }
 
 .description {
+    font-family: 'Uncage', Arial, sans-serif;
     font-size: 1.2em;
     color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #2980b9;
 }
